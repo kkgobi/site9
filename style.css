@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(36, 66, 73);
+    padding: 10px;
+}
+.hh {
+    border-top: 3px solid rgb(144, 197, 175);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(144, 197, 175);
+    
+}
+.hh a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(70, 49, 93);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hh a:focus{
+    color:rgb(251, 82, 181);
+}
+
+.cc{
+ display:flex ;
+    justify-content:center;
+    padding: 10px;
+   
+}
+td{
+    padding: 5px;
+    margin: 5px;
+    font-size: small;
+}
+h5{
+   font-size: medium; 
+   text-align: center;
+   border-bottom: 5px dashed rgb(144, 197, 175);
+    padding: 5px;
+    color:rgb(46, 38, 27);
+     background-color: rgb(210, 255, 255);
+}
+h6{
+    font-size: medium;
+    text-align: center;
+    border-bottom: 5px dashed rgb(144, 197, 175);
+     padding: 5px;
+     color:rgb(46, 38, 27);
+      background-color: rgb(210, 255, 255);
+}
+h2{
+    text-align: center;
+    border-bottom: 5px dashed rgb(144, 197, 175);
+    color:rgb(46, 38, 27);
+    padding: 5px;
+    background-color: rgb(210, 255, 255);
+}
+h7{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+    text-align: center;
+    border-bottom:3px solid rgb(255, 207, 255);
+}
+.bbest{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+     padding: 5px;
+     color:rgb(46, 38, 27);
+}
+.vv p{
+    display:flex ;
+    justify-content:center; 
+    background-color: lightblue;
+    padding: 10px;
+}
+.vv p:hover{
+    background-image: linear-gradient(to bottom,white,rgb(255, 206, 245));
+    box-shadow: 0 10px 5px 0 rgb(226, 29, 122),0 20px 5px 0 rgb(241, 75, 153);
+    transition: 0.5s linear;
+}
+header{
+    background-color: rgb(235, 249, 241);
+}
+main{
+    background-color: rgb(235, 249, 241); 
+}
+footer{
+     background-color: rgb(235, 249, 241);
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+.all img{
+    opacity: 0.2;
+    width: 150px;
+    height: 150px;
+}
+.all img:hover{
+    opacity: 1;
+    border:6px solid pink;
+   padding:5px;
+   transition: 0.5s ease-out;
+   height: 150px;
+   width: 150px;
+}
+.mm{
+    display: flex;
+    justify-content: center;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+
+.ff{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.mm p{
+    color:rgb(235, 249, 241);
+}
+
+.bbest p{
+    color:rgb(235, 249, 241);
+}
+
+.inst{
+    display: flex;
+    justify-content: left;
+}
+.fac{
+    display: flex;
+}
+
